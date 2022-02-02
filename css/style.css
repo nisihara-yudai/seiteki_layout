@@ -1,0 +1,66 @@
+/* シングルカラムレイアウト */
+section.column01 {
+    height: 100vh;
+}
+
+.header01 {
+    background: #FCF;
+    height: 80px;
+}
+
+.nav {
+    padding-left: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.navigation {
+    float: left;
+    margin-left: 15px;
+    list-style: none;
+    line-height: 2;
+}
+
+main.main01 {
+    background: #1E0;
+    height: 80%;
+}
+
+footer.footer01 {
+    background: #5A8;
+    height: auto;
+}
+
+/* マルチカラムレイアウト */
+section.column02 {
+    height: 100vh;
+}
+
+header.header02 {
+    background: #4F9;
+    height: 35px;
+}
+
+main.main02 {
+    display: flex;
+    height: 70%;
+}
+
+article.contents {
+    background: #7FF;
+    width: 70%;
+}
+
+aside.side {
+    background: blue;
+    width: 30%;
+}
+
+footer.footer02 {
+    background: #28A;
+    height: 156px;
+}
+
+
+
+
