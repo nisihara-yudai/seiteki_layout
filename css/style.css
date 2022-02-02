@@ -61,6 +61,24 @@ footer.footer02 {
     height: auto;
 }
 
+/* グリッドレイアウト */
+section.column03{
+    height: 100vh;
+}
+
+header.header02 {
+    background: #3d8;
+    height: 100px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    grid-auto-rows: 50px;
+}
+
+
 
 
 
