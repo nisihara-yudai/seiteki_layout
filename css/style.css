@@ -4,14 +4,14 @@ section.column01 {
 }
 
 .header01 {
-    background: #FCF;
+    background: #fcf;
     height: 80px;
 }
 
 .nav {
     padding-left: 10px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .navigation {
@@ -22,13 +22,13 @@ section.column01 {
 }
 
 main.main01 {
-    background: #1E0;
+    background: #1e0;
     height: 80%;
 }
 
 footer.footer01 {
-    background: #5A8;
-    height: auto;
+    background: #5a8;
+    height: 54px;
 }
 
 /* マルチカラムレイアウト */
@@ -37,7 +37,7 @@ section.column02 {
 }
 
 header.header02 {
-    background: #4F9;
+    background: #4f9;
     height: 100px;
 }
 
@@ -47,7 +47,7 @@ main.main02 {
 }
 
 article.contents {
-    background: #7FF;
+    background: #7ff;
     width: 60%;
 }
 
@@ -57,28 +57,40 @@ aside.side {
 }
 
 footer.footer02 {
-    background: #28A;
-    height: auto;
+    background: #28a;
+    height: 230px;
 }
 
 /* グリッドレイアウト */
-section.column03{
+section.column03 {
     height: 100vh;
 }
 
-header.header02 {
-    background: #3d8;
-    height: 100px;
+header.header3{
+    background: #5d6;
+    height: 20px;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    grid-auto-rows: 50px;
+.pictures {
+    text-align: center;
 }
 
+main.main3{
+    background:#6ab;
+}
 
+.grid {
+    width: 100%;
+    margin: 0 auto;
+    column-count: 3;
+}
 
+img.item {
+    width: 28%;
+}
 
+footer.footer03{
+    background: aqua;
+    height: 196px;
+}
 
