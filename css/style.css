@@ -1,4 +1,4 @@
-/* シングルカラムレイアウト */
+/* シングルレイアウト */
 section.column01 {
     height: 100vh;
 }
@@ -28,7 +28,7 @@ main.main01 {
 
 footer.footer01 {
     background: #5a8;
-    height: 54px;
+    height: 40px;
 }
 
 /* マルチカラムレイアウト */
@@ -58,7 +58,7 @@ aside.side {
 
 footer.footer02 {
     background: #28a;
-    height: 230px;
+    height: 110px;
 }
 
 /* グリッドレイアウト */
@@ -83,7 +83,7 @@ main.main3{
     width: 100%;
     margin: 0 auto;
     column-count: 3;
-    height: 600px;
+    height: 630px;
 }
 
 img.item {
@@ -100,13 +100,12 @@ footer.footer03{
     padding: 30px;
 }
 
-.fulscreen{
+.ful-screen{
     position: relative;
 }
 
 img.background-picture {
     width: 100%;
-/*     position: absolute; */
 }
 
 p.contents{
